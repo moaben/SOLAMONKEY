@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SMONQ IQ Rush 🦍</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="start" class="center">
+    <img src="https://i.imgur.com/fx1KoTb.png" alt="SMONK Gorilla" width="180">
+    <h1>SMONQ IQ Rush</h1>
+    <p>Test your Crypto Brain 🧠</p>
+    <div class="levels">
+      <button class="level-btn" data-level="beginner">Beginner</button>
+      <button class="level-btn" data-level="intermediate">Intermediate</button>
+      <button class="level-btn" data-level="advanced">Advanced</button>
+    </div>
+  </div>
+
+  <div id="quiz" class="hidden">
+    <h2 id="q-text">Question text here</h2>
+    <div id="choices" class="choices"></div>
+    <div id="progress">Question <span id="current-q">1</span> / <span id="total-q">10</span></div>
+  </div>
+
+  <div id="end" class="hidden center">
+    <h2>Quiz Finished 🎉</h2>
+    <p id="final-score"></p>
+    <button id="play-again">Play Again</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
